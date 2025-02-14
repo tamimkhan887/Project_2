@@ -68,4 +68,20 @@ nav h3 {
     font-weight: 600;
 }
 
+.first_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 3.125rem auto;
+}
+
+.image_container{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 4rem;
+    border-radius: 8px;
+}
+.image_container img {
+    width: 100%;
+}
 
