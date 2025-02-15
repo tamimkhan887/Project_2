@@ -147,7 +147,7 @@ nav h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    margin: 130px 180px auto 240px;
+    margin: 130px 160px auto 240px;
 }
 
 .satisfaction_content_container {
@@ -217,6 +217,64 @@ nav h3 {
     margin-top: 2px;
 }
 
+/* section 3 */
+.fact {
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+.fact h3 {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.fact p {
+    color: #727272;
+    font-size: 1rem;
+    font-style: normal;
+    margin-top: 1.2rem;
+}
+
+.achivement_container{
+    margin: 100px 290px auto 290px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.achivement {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.achivement img {
+    margin-bottom: 0rem;
+}
+
+.achivement h2 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: #424242;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.achivement p {
+    margin-top: 2px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* section 4 */
+
+
+
 
 @media screen and (min-width: 576px) and (max-width:960px) {
     nav {
@@ -266,16 +324,28 @@ nav h3 {
     }
 
 
-    .satisfaction_container{
+    .satisfaction_container {
         grid-template-columns: 1fr;
         margin-top: 0px;
         margin: auto 100px;
     }
+
     .satisfaction_img_container img {
         padding-left: 10%;
         height: 80%;
         width: 80%;
     }
+
+        /* section 3 */
+        .fact {
+            margin-top: -60px;
+            margin-left: 80px;
+        }
+        .achivement_container{
+            grid-template-columns: repeat(2,1fr);
+            margin: 80px 120px 20px 120px;
+            gap: 20px;
+        }
 
 
 }
@@ -331,15 +401,27 @@ nav h3 {
 
     }
 
-    .satisfaction_container{
+    .satisfaction_container {
         grid-template-columns: 1fr;
         margin-top: 0px;
         margin: auto 20px;
     }
+
     .satisfaction_img_container img {
         padding-left: 10%;
         height: 80%;
         width: 80%;
+    }
+
+    /* section 3 */
+    .fact {
+        margin-top: -60px;
+        margin-left: 40px;
+    }
+    .achivement_container{
+        grid-template-columns: 1fr;
+        margin: 80px 70px 20px 70px;
+        gap: 20px;
     }
 
 }
