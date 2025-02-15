@@ -141,6 +141,83 @@ nav h3 {
     font-weight: 400;
 }
 
+/* next feture section  */
+
+.satisfaction_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 130px 180px auto 240px;
+}
+
+.satisfaction_content_container {
+    width: 100%;
+}
+
+.satisfaction_img_container img {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.love_enjoy h3 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.love_enjoy>p,
+.satisfaction_div>p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.satisfaction_div>h3 {
+    color: #131313;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.satisfaction_div {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+
+.ten_year_exp {
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 170px;
+    height: 80px;
+    border: none;
+    position: relative;
+    bottom: 80px;
+}
+
+.ten_year_exp h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.ten_year_exp p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+
 @media screen and (min-width: 576px) and (max-width:960px) {
     nav {
         padding: 1rem 2rem;
@@ -169,9 +246,10 @@ nav h3 {
     .image_container img {
         width: 100%;
     }
-     /* feature container  */
 
-     .feature_container {
+    /* feature container  */
+
+    .feature_container {
         flex-direction: column-reverse;
         margin: 7rem;
         gap: 5rem;
@@ -180,10 +258,23 @@ nav h3 {
     .img_container>div {
         width: 100%;
         height: 100%;
-    
+
     }
+
     .content_container {
         margin-left: 0rem;
+    }
+
+
+    .satisfaction_container{
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+        margin: auto 100px;
+    }
+    .satisfaction_img_container img {
+        padding-left: 10%;
+        height: 80%;
+        width: 80%;
     }
 
 
@@ -221,19 +312,34 @@ nav h3 {
         flex-direction: column-reverse;
         margin: 1rem;
     }
+
     .content_container {
-        margin:1rem;
+        margin: 1rem;
         margin-bottom: 2rem;
     }
+
     .img_container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
         padding: 3rem;
     }
+
     .img_container>div {
         width: 100%;
         height: 100%;
-    
+
     }
+
+    .satisfaction_container{
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+        margin: auto 20px;
+    }
+    .satisfaction_img_container img {
+        padding-left: 10%;
+        height: 80%;
+        width: 80%;
+    }
+
 }
